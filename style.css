@@ -1,0 +1,63 @@
+* {
+  box-sizing: border-box;
+  }
+
+
+input[type=text], input[type=number], select, textarea {
+  width: 70%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  font-size: 16px;
+}
+
+input[type=submit] {
+  background-color: white;
+  color: black;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: white;
+}
+
+.title {
+  color:white;
+  font-size: 22px;
+  font-weight: bold;
+  display: block;
+  margin: 20px 0 10px 0;
+}
+
+.container {
+
+  padding: 0px;
+    display: flex;
+    background: url(https://treeti.com.br/wp-content/uploads/2022/03/criptografia-1080x675.jpg
+      ) no-repeat center;
+    height: 100px;
+    min-height: 950px;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'arial';
+    font-size: 20px;
+  
+   position:center;
+
+}
+
+::placeholder {
+  font-size: 15px;
+}
+.cifrarDecifrar{
+  position: relative;
+  top: 0.2%;
+  margin-top: 5px;
+}

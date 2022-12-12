@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="Content-type" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Cifra de césar</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body class="body">
+  <div class="container">
+    <form style=" width: 50vw; margin-left: 25vw; id=" formulario-mensagem" name="formulario-mensagem">
+
+      <label class="title">Digite o Texto: </label>
+      <textarea id="mensagem-inicial" name="mensagem-inicial" placeholder="Escreva algo"
+        style="height:200px"></textarea>
+
+      <label for="rota" class="title">Digite uma chave</label>
+
+      <input type="number" id="rota" min="0" class="numero">
+      </br>
+      <input type="submit" id="cifrar" class="cifrarDecifrar" value="Cifrar mensagem">
+      <input type="submit" id="decifrar" class="cifrarDecifrar" value="Decifrar mensagem">
+      </br>
+      <label class="title">Mensagem gerada: </label>
+
+      <textarea id="mensagem-final" name="mensagem-final" placeholder="Sua mensagem cifrada ou decifrada aparecerá aqui"
+        style="height:200px"></textarea>
+    </form>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
